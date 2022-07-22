@@ -1,6 +1,5 @@
 .planes {
     background-color: var(--background-ceniza-claro);
-    
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -12,7 +11,6 @@
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
-
     margin-bottom: 1.25rem;
 }
 
@@ -103,4 +101,12 @@
 
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
+}
+
+@media screen and (min-width: 1024px) {
+    .planes__tarjetas {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
 }
